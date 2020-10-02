@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="register.css" rel="stylesheet">
+    <title>Register</title>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="img/mbari logo ong.png" alt="Mbari Logo" width="100" height="100">
+        </div>
+        
+        <nav>
+            <ul class="nav-links">
+                <li><a class="nav-link" href="#">Past Issues</a></li>
+                <li><a class="nav-link" href="thembari.come/online-store">The Mbari Store</a></li>
+                <li><a class="nav-link" href="#">About</a></li>
+            </ul>
+        </nav>
+        <div class="cart">
+            <img src="img/shopping-cart.svg" alt="cart" width="80" height="40" /> 
+        </div>        
+    </header>  
+
+    <main>
+          <h1>Register</h1> 
+        <br>
+        <br>
+        <div class="row">
+        <div class="column">
+        <section class="registerationtype">
+            <form action="action_page.php">
+                <div class="contributor">
+                    <button onclick="myFunction()"><h1>Contributor</h1></button>
+                  <h1>Contributor</h1>
+                  <ul><p>Submit art work to Mbari</p></ul>
+                  <ul><p>Save bookmarks and liked art work</p></ul>
+                  <ul><p>Get updates on Mbari and the latest issue</p></ul>
+                  <ul><p>Get promotion offers</p></ul>
+                  <hr>
+ 
+                  <label for="fname"><b>First Name</b></label>
+                  <input type="text" placeholder="Enter First Name" name="fname" id="fname" maxlength="200" required>
+
+                  <label for="lname"><b>Last Name</b></label>
+                  <input type="text" placeholder="Enter Last Name" name="lname" id="lname" maxlength="200" >
+
+                  <label for="email"><b>Email</b></label>
+                  <input type="text" placeholder="Enter Email" name="email" id="email" required>
+              
+                  <label for="psw"><b>Password</b></label>
+                  <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+              
+                  <label for="psw-repeat"><b>Repeat Password</b></label>
+                  <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+
+                  <label for="dateofbirth"><b>Birthday</b></label>
+                  <input type="date" placeholder="Enter Your Birthday" name="dateofbirtrh" id="dateofbirth" required>
+                  
+                  <label for="tel"><b>Phone Number </b></label>
+                  <input type="tel" placeholder="Enter Your Phone No." name="tel" id="tel" required>
+
+                  <h3>What are your interests?</h3>
+                  <input type="checkbox" id="interest1" name="interest1" value="VisualArts">
+                  <label for="interest1">Visual Arts</label><br>
+                  <input type="checkbox" id="interest2" name="interest2" value="Poetry">
+                  <label for="interest2">Poetry</label>
+                  <input type="checkbox" id="interest3" name="interest3" value="Fiction">
+                  <label for="interest3">Visual Arts</label><br>
+                  <input type="checkbox" id="interest4" name="interest4" value="Music">
+                  <label for="interest4">Music</label>
+                  <input type="checkbox" id="interest5" name="interest5" value="Non-Fiction">
+                  <label for="interest5">Non-Fiction</label>                              
+                  
+                  <hr>
+              
+                  <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+                  <button type="submit" class="registerbtn">Register</button>
+                </div>
+              
+                <div class="container signin">
+                  <p>Already have an account? <a href="#">Sign in</a>.</p>
+                </div>
+              </form>      
+        </section>
+        </div>
+        <div class="column">
+        <section class= "registerationtype">
+            <form action="action_page.php">
+                <div class="reader">
+                  <h1>Reader</h1>
+                  <ul><p>Save bookmarks and liked art work</p></ul>
+                  <br>
+                  <br>
+                  <hr>
+                  <label for="fname"><b>First Name</b></label>
+                  <input type="text" placeholder="Enter First Name" name="fname" id="fname" maxlength="200" required>
+
+                  <label for="lname"><b>Last Name</b></label>
+                  <input type="text" placeholder="Enter Last Name" name="lname" id="lname" maxlength="200" >
+
+                  <label for="email"><b>Email</b></label>
+                  <input type="text" placeholder="Enter Email" name="email" id="email" required>
+              
+                  <label for="psw"><b>Password</b></label>
+                  <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+              
+                  <label for="psw-repeat"><b>Repeat Password</b></label>
+                  <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+                  <hr>
+              
+                  <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+                  <button type="submit" class="registerbtn">Register</button>
+                </div>
+              
+                <div class="container signin">
+                  <p>Already have an account? <a href="#">Sign in</a>.</p>
+                </div>
+              </form>
+        </section>
+        </div>
+        </div>
+    </main>
+    
+</body>
+</html>
